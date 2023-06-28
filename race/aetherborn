@@ -1,0 +1,99 @@
+{
+	"name": "Aetherborn",
+	"source": "Puff's Homebrew Collection",
+	"page": null,
+	"size": [
+		"M"
+	],
+	"speed": 30,
+	"ability": [
+		{
+			"int": 2,
+			"choose": {
+				"from": [
+					"str",
+					"dex",
+					"con",
+					"wis",
+					"cha"
+				],
+				"count": 1
+			}
+		}
+	],
+	"heightAndWeight": {
+		"baseHeight": 56,
+		"heightMod": "2d10",
+		"baseWeight": 100,
+		"weightMod": "2d4"
+	},
+	"age": {
+		"mature": 0,
+		"max": 5
+	},
+		
+	"entries": [
+		{
+			"name": "Age",
+			"type": "entries",
+			"entries": [
+				"Aetherborn come into being as adults and live no longer than 5 years."
+			]
+		},
+		{
+			"name": "Alignment",
+			"type": "entries",
+			"entries": [
+				"As a rule, Aetherborn are driven by obsession and self-interest, making them Neutral at best and thoroughly Evil at worst."
+			]
+		},
+		{
+			"type": "entries",
+			"name": "Size",
+			"entries": [
+				"Aetherborn are roughly the same size as humans, standing anywhere from 5 feet to over 6 feet tall. They weigh slightly less than humans, and become lighter as they age due to the deterioration of their body. Your size is Medium."
+			]
+		},
+		{
+			"name": "Aethersight",
+			"entries": [
+				"As a result of being made of the aether which permeates everything, Aetherborn are more in tune with their physical surroundings than most. You can percieve the world around you within 5 feet without the use of normal senses."
+			],
+			"type": "entries"
+		},
+		{
+			"name": "Born of Aether",
+			"entries": [
+				"Aetherborn cannot eat or drink, do not need to sleep, and will not be exhausted by not sleeping."
+			],
+			"type": "entries"
+		},
+		{
+			"name": "Magical Physiology",
+			"entries": [
+				"When a spell of first level or higher is cast within 15 feet of you, as a reaction, you may regain {@dice 1d4} hit points."
+			],
+			"type": "entries"
+		},
+		{
+			"name": "Arcane Essence",
+			"entries": [
+				"You know one cantrip of your choice from the {@spell Sorcerer} spell list. Intelligence is your spellcasting ability for it."
+			],
+			"type": "entries"
+		},
+		{
+			"name": "Autochthonous Visions",
+			"entries": [
+				"You gain proficiency in the {@skill Arcana} and may choose to reroll a {@skill History} check once per long rest. You also gain proficiency in one weapon, armor, tool, skill, or language of your choice."
+			]
+		},
+		{
+			"name": "Languages",
+			"entries": [
+				"You can speak, read, and write Common and one other language that you and your DM agree would be appropriate for your character."
+			],
+			"type": "entries"
+		}
+	]
+}
